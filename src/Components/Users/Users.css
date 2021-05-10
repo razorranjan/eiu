@@ -1,0 +1,13 @@
+.Users {
+    display:flex;
+}
+.UsersList {
+    width: 20%;
+}
+.UsersList .main-nav-container {
+    border: 1px solid #ccc;
+    padding: 0;
+}
+.UsersList .main-nav-listitem {
+    border-bottom: 1px solid #ccc;
+}

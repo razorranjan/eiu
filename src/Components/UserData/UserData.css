@@ -1,0 +1,7 @@
+.UserData {
+    border: 1px solid #ccc;
+    padding: 25px 15px;
+}
+.UserData .form-control{
+    margin: 0 0 15px 0;
+}
