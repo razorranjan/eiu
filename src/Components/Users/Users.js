@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './Users.css';
-// import UsersList from '../UsersList/UsersList'
 import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
 import ListItemText from '@material-ui/core/ListItemText';
@@ -27,17 +26,12 @@ class Users extends Component {
       this.setState({ 
         users: result.sort((a, b) => (a.employeeId > b.employeeId) ? 1 : -1)
       });
-      // console.log(this.state.users);
-      // console.log(this.state.selectedUser);
     });
   }
   handleListItemClick = (event, index, value) => {
-    // let selectedUser = value;
     this.setState({
       selectedIndex: index,
       selectedUser: value
-    },function(){
-      // console.log(this.state);
     });
   };
   render() { 
@@ -60,7 +54,6 @@ class Users extends Component {
             })}
           </List>
         </div>
-        {/* <UsersList users={this.state.users} action={this.handler}></UsersList> */}
         <UserData selectedUser={this.state.selectedUser}></UserData>
       </div>
      );
