@@ -2,6 +2,11 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+Clone the repo using command line :
+### git clone https://github.com/razorranjan/eiu.git
+### cd <repo_name>
+### yarn install
+
 ## Available Scripts
 
 In the project directory, you can run:
